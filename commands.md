@@ -12,3 +12,7 @@ docker container rm $(docker container ls -aq)
 ## postgresql
 createdb
 psql
+
+## git
+git config --global user.name "name"
+git config --global user.email "name@email.com"

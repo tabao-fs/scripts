@@ -3,6 +3,7 @@ ls -lh
 alias python=python3
 alias pip=pip3
 timedatectl set-local-rtc 0
+unset HISTFILE
 
 ## docker
 docker build -t toolbox .

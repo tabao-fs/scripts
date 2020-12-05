@@ -18,3 +18,13 @@ psql
 git config --global --list
 git config --global user.name "name"
 git config --global user.email "name@email.com"
+
+## zsh
+### git shortcuts
+```
+gst - git status
+gl - git pull
+ggl - git pull origin $(current_branch)
+glg - git log --stat
+grv - git remote -v
+```

@@ -5,6 +5,7 @@ alias python=python3
 alias pip=pip3
 timedatectl set-local-rtc 0
 unset HISTFILE
+sudo netstat -nlp | grep 5000
 ```
 
 ## docker

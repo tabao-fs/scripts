@@ -19,6 +19,10 @@ docker container rm $(docker container ls -aq)
 ```
 createdb
 psql
+# list databases
+\l
+# Connect to a database
+\c __database__
 ```
 
 ## git

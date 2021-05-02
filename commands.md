@@ -25,6 +25,11 @@ psql
 \c __database__
 ```
 
+## nodejs
+```
+npm list -g --depth=0
+```
+
 ## git
 ```
 git config --global --list

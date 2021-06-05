@@ -35,6 +35,8 @@ npm list -g --depth=0
 git config --global --list
 git config --global user.name "name"
 git config --global user.email "name@email.com"
+git blame -L line_start,line_end filename.extension
+git show hash -- filename.extension
 ```
 
 ## zsh

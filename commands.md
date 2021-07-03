@@ -48,3 +48,18 @@ ggl - git pull origin $(current_branch)
 glg - git log --stat
 grv - git remote -v
 ```
+
+## grub
+```
+sudo nano /etc/default/grub
+```
+To save your changes:
+```
+Ctrl + X
+Y
+Enter
+```
+To update grub:
+```
+sudo update-grub
+```
